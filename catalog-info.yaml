@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible15
+  description: create-a-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible15
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible15
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
